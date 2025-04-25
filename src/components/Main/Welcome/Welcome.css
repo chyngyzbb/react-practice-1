@@ -1,0 +1,32 @@
+#welcome {
+    padding: 50px 0;
+    background: rgb(243, 243, 243);
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img{
+    margin-top: -70px;
+  }
+  .welcome-text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: 80px;
+    width: 380px;
+    h2 {
+      font-weight: 500;
+      line-height: 134%;
+      color: #EE4248;
+      span{
+        color: #1F2E35;
+      }
+    }
+    p{
+        color: #30444E;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+#footer {
+  background: #ee4248;
+  width: 100%;
+  height: 64px;
+  top: 2094px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    span{
+        font-weight: 600;
+    }
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+  }
+}
