@@ -15,7 +15,7 @@ const Making = () => {
             <p>Managed by a team of professional experts with extensive experience and impressive track records</p>
             <button>Read More</button>
           </div>
-          <img src={pana} alt="" />
+          <img className="img" src={pana} alt="" />
         </div>
       </div>
     </div>

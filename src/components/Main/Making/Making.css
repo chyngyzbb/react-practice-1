@@ -34,9 +34,38 @@
       padding-bottom: 12px;
       padding-left: 32px;
       gap: 10px;
-      background: #EE4248;
+      background: #ee4248;
       border: none;
       color: white;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .Making {
+    .Making-info {
+      gap: 20px;
+      h1 {
+        font-weight: 500;
+      }
+    }
+    img {
+      width: 400px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .Making {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .Making{
+    .img {
+      width: 300px;
     }
   }
 }

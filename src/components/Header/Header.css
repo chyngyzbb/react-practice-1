@@ -53,3 +53,31 @@ a {
         }
     }
 }
+@media(max-width: 1100px) {
+  .header {
+    .logo{
+      width: 100px;
+    }
+    nav {
+   
+      gap: 10px;  
+    }
+    .email{
+          gap: 10px;
+      }
+  }
+}
+@media(max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    .logo{
+      width: 100px;
+    }
+    nav {
+   display: none; 
+    }
+    .email{
+          gap: 40px;
+      }
+  }
+}
