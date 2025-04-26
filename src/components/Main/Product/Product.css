@@ -13,14 +13,15 @@
       align-items: center;
       justify-content: space-between;
       gap: 80px;
-      text-align: start;
+      /* text-align: start; */
       .our {
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: space-between;
         gap: 30px;
         width: 230px;
+        /* background: #0000001d; */
         h3 {
           color: #ee4248;
         }
@@ -28,7 +29,7 @@
           color: #30444e;
         }
         button {
-          width: 119;
+          width: 119px;
           height: 42;
           top: 315px;
           left: 24px;
@@ -82,4 +83,49 @@
       }
     }
   }
+}
+
+@media(max-width:900px){
+  .products{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    gap: 10px;
+    text-align: center;
+    .our{
+      align-items: center;
+      text-align: center;
+      /* justify-content: stretch; */
+      width: 100%;
+    }
+  }
+}
+
+@media(max-width:650px){
+  .products{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media(max-width:500px){
+ .contact{
+  justify-content: center;
+  display: none;
+  gap: 2px;
+  .logo{
+    .img3{
+      width: 100px;
+    }
+  }
+  .email{
+    margin-left: -100px;
+  }
+ }
 }

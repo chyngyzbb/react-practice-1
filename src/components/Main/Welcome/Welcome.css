@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  img{
+  gap: 50px;
+  .img2{
     margin-top: -70px;
   }
   .welcome-text {
@@ -16,7 +17,7 @@
     justify-content: space-between;
     text-align: start;
     gap: 80px;
-    width: 380px;
+    /* width: 380px; */
     h2 {
       font-weight: 500;
       line-height: 134%;
@@ -29,4 +30,26 @@
         color: #30444E;
     }
   }
+}
+
+@media(max-width:1000px){
+  .img2{
+    width: 270px;
+  }
+}
+@media(max-width:700px){
+  .welcome{
+    flex-direction: column;
+    .welcome-text{
+      gap: 2px;
+      p{
+        padding-top: -30px;
+      }
+    }
+  }
+  .img2{
+    padding-top: 20px;
+    width: 270px;
+  }
+  
 }

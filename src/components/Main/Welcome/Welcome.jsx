@@ -7,7 +7,7 @@ const Welcome = () => {
     <div id="welcome">
       <div className="container">
         <div className="welcome">
-          <img src={pana} alt="" />
+          <img className="img2" src={pana} alt="" />
           <div className="welcome-text">
             <h2><span>Welcome to</span> Dwidasa Samsara Indonesia (DSI)</h2>
             <p>

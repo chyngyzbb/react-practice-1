@@ -46,7 +46,7 @@ const Product = () => {
           </div>
           <div className="contact">
             <div className="logo">
-              <img src={logo} alt="" />
+              <img className="img3" src={logo} alt="" />
               <h5>PT Dwidasa Samsara Indonesia</h5>
               <p>
                 Ruko Jalur Sutera 29A No. 53 <br />
