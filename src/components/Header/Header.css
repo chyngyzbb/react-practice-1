@@ -74,7 +74,8 @@ a {
       width: 70px;
     }
     nav {
-   display: none; 
+   display: none;
+    /*add  */
     }
     .email{
           gap: 40px;
